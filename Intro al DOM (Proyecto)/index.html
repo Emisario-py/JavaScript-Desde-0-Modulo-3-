@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja de Comentarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="comment-box">
+        <h2>Deja un comentario</h2>
+        <textarea id="commentInput" placeholder="Escribe tu comentario..."></textarea>
+        <button id="add">Agregar comentario</button>
+        <button id="delete">Borrar comentario</button>
+        <div class="comments-list" id="commentsList"></div>
+    </div>
+    <table id="caja-comentarios">
+        <thead>
+            <tr>
+                <th>Comentario</th>
+                <th>Fecha y hora</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Me encanta este sitio.</td>
+                <td>20/04/2023 19:00</td>
+            </tr>
+            <tr>
+                <td>Muy útil la información.</td>
+                <td>20/04/2023 20:00</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
