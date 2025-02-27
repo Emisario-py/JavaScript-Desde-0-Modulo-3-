@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="comment-box">
+    <form class="comment-box" id="commentForm">
         <h2>Deja un comentario</h2>
-        <textarea id="commentInput" placeholder="Escribe tu comentario..."></textarea>
-        <button id="add">Agregar comentario</button>
-        <button id="delete">Borrar comentario</button>
-        <div class="comments-list" id="commentsList"></div>
-    </div>
+        <textarea id="commentInput" name="comment" placeholder="Escribe tu comentario..."></textarea>
+        <button type="button" id="add">Agregar comentario</button>
+        <button type="button" id="delete">Borrar comentario</button>
+    </form>
     <table id="caja-comentarios">
         <thead>
             <tr>
