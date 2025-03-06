@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #2d2d2d;
+    padding: 20px 25px;
+    border-radius: 8px;
+    width: 350px;
+    max-width: 90%;
+  }
+  
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+  
+  #box-password {
+    background-color: #3a3a3a;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #generated-password {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  #length-control {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #length-control label {
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+  
+  #lengthRange {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  #lengthValue {
+    min-width: 25px;
+    text-align: center;
+  }
+  
+  #options {
+    margin-bottom: 20px;
+  }
+  
+  #options label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  #strength-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #strength-text {
+    font-size: 0.9rem;
+  }
+  
+  #indicator {
+    background-color: #ff4d4d;
+    border-radius: 6px;
+    width: 100px;
+    height: 12px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  
+  
+  #btn-gen {
+    width: 100%;
+    background-color: #32cd32;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #btn-gen:hover {
+    background-color: #2fa02f;
+  }
+  
